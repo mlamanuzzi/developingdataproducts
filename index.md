@@ -15,15 +15,13 @@ knit        : slidify::knit2slides
 
 This project was created to fulfill the requirements of the Developing Data Products Coursera course from Johns Hopkins University.
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+The purpose of the project was to get familiar with developing an interactive Shiny application and reprodicible pitch using Slidify.
 
 --- .class #id 
 
 ## Summary of Data
 
-The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). The qualitative variables such as number of cylinders and gears were converted to factors.
+The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models).
 
 
 ```r
@@ -60,7 +58,7 @@ summary(mtcars)
 
 To use the app, simply choose the predictor of MPG that you would like to investigate.
 
-Once chosen, a linear model is built using the selected predictor with respect to mpg.
+Once chosen, a linear model is built using the selected predictor with respect to mpg, and the regression line drawn.
 
 A summary table is also shown of that variabel in the dataset.
 
