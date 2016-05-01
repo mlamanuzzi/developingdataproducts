@@ -23,7 +23,7 @@ The data for the app was extracted from the 1974 Motor Trend US magazine, and co
 
 ## Summary of Data
 
-```{r}
+```{r, echo=FALSE}
 summary(mtcars)
 ```
 
