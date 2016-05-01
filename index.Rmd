@@ -17,11 +17,11 @@ This project was created to fulfill the requirements of the Developing Data Prod
 
 The purpose of the project was to get familiar with developing an interactive Shiny application and reprodicible pitch using Slidify.
 
+The data for the app was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models).
+
 --- .class #id 
 
 ## Summary of Data
-
-The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models).
 
 ```{r, echo=TRUE}
 summary(mtcars)
@@ -31,14 +31,15 @@ summary(mtcars)
 
 ## Using the app
 
+The app will allow the user to visualize features of the dataset as predictors of MPG.
+
 To use the app, simply choose the predictor of MPG that you would like to investigate.
 
 Once chosen, a linear model is built using the selected predictor with respect to mpg, and the regression line drawn.
 
-A summary table is also shown of that variabel in the dataset.
+A summary table is also shown of that variable in the dataset.
 
 --- .class #id 
 ## Summary
-
 
 [Source code on Github](https://github.com/mlamanuzzi/MPGPredictors)
